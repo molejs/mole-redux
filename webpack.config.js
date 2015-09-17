@@ -10,7 +10,7 @@ module.exports = {
 
   },
   externals: {
-    'mole-reporter': 'mole-reporter'
+    'mole-reporter': 'Mole'
   },
   resolve: {
     extensions: ['', '.js', '.jsx']

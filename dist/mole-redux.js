@@ -1,4 +1,3 @@
-var Mole =
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -72,7 +71,7 @@ var Mole =
 /* 1 */
 /***/ function(module, exports) {
 
-	module.exports = mole-reporter;
+	module.exports = Mole;
 
 /***/ }
 /******/ ]);
