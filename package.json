@@ -2,7 +2,7 @@
   "name": "mole-redux",
   "description": "Adaptor that aims to provide simple adaptor to integrate mole-reporter in redux applications.",
   "main": "dist/mole-redux.js",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "scripts": {
     "build": "./node_modules/.bin/webpack --config webpack.config.js && ./node_modules/.bin/webpack --config webpack.config.min.js"
   },
