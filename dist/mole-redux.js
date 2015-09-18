@@ -42,36 +42,24 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ function(module, exports) {
 
-	'use strict';
+	"use strict";
 	
-	Object.defineProperty(exports, '__esModule', {
+	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
 	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
-	
-	var _moleReporter = __webpack_require__(1);
-	
-	var _moleReporter2 = _interopRequireDefault(_moleReporter);
-	
-	exports['default'] = function (store) {
+	exports["default"] = function (store) {
 	  return function (next) {
 	    return function (action) {
-	      _moleReporter2['default'].registerActionState(action, store.getState());
+	      Mole.registerActionState(action, store.getState());
 	      return next(action);
 	    };
 	  };
 	};
 	
-	module.exports = exports['default'];
-
-/***/ },
-/* 1 */
-/***/ function(module, exports) {
-
-	module.exports = Mole;
+	module.exports = exports["default"];
 
 /***/ }
 /******/ ]);
