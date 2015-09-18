@@ -6,7 +6,9 @@ module.exports = {
   output: {
     path: path.join(__dirname, 'dist'),
     filename: 'mole-redux.js',
-    publicPath: '/dist/'
+    publicPath: '/dist/',
+    libraryTarget: 'umd',
+    library: 'MoleRedux'
   },
   externals: {
     'Mole': 'mole-reporter'
