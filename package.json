@@ -24,7 +24,5 @@
     "babel-loader": "^5.3.2",
     "webpack": "^1.12.1"
   },
-  "dependencies": {
-    "mole-reporter": "git://github.com/molejs/mole-redux.git#dev"
-  }
+  "dependencies": {}
 }
