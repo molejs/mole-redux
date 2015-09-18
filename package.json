@@ -25,6 +25,6 @@
     "webpack": "^1.12.1"
   },
   "dependencies": {
-    "mole-reporter": "^1.0.1"
+    "mole-reporter": "git://github.com/molejs/mole-redux.git#dev"
   }
 }
