@@ -7,10 +7,9 @@ module.exports = {
     path: path.join(__dirname, 'dist'),
     filename: 'mole-redux.js',
     publicPath: '/dist/'
-
   },
   externals: {
-    'mole-reporter': 'Mole'
+    'Mole': 'mole-reporter',
   },
   resolve: {
     extensions: ['', '.js', '.jsx']
