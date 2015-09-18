@@ -9,7 +9,7 @@ module.exports = {
     publicPath: '/dist/'
   },
   externals: {
-    'Mole': 'mole-reporter',
+    'Mole': 'mole-reporter'
   },
   resolve: {
     extensions: ['', '.js', '.jsx']
