@@ -1,4 +1,4 @@
-# mole-redux [![Build Status](https://travis-ci.org/molejs/mole-redux.svg?branch=master)](https://travis-ci.org/molejs/mole-redux)
+# mole-redux
 
 mole-redux is a tiny helper library that works as a middleware for redux,
 allowing easy state-action molejs.
